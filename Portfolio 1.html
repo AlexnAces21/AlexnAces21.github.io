@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset= "UTF-8"> 
+<meta name="viewport" content= width="device-width, initial-scale= 1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title> Portfolio- initial Page</title>
+<link rel="stylesheet" href="Elements.css">
+</head>
+<body>
+<section class= "section-1">
+<div class= "container">
+<header>
+<h2 class="logo">Alexsander Cruz</h2>
+<nav>
+<a href="#" class="active">Home</a>
+<a href="C:/Users/darke/Documents/Portfolio/About%20me%201.html">About Me</a>
+<a href="C:/Users/darke/Documents/Portfolio/Projects.html">Projects/Examples</a>
+<a href="C:/Users/darke/Documents/Portfolio/Contacts%20me.html">Contact</a>
+</nav>
+</header>
+<h1 class="intro"> Welcome to my resume portfolio!</h1>
+<img src="C:/Users/darke/Documents/Portfolio/img/20230831_155327.jpg" ></img>
+</section>
+<section class="section-2">
+<h1>Welcome to my portfolio!</h1>
+<p>Hello, as the title suggested this is my portfolio,<br>
+this is the place where you can see the my background history <br>and the school work/jobs that ive done over the past couple of years.<br>
+feel free to view what ive worked on in the past to give you an idea on what i can bring to the table.
+
+</section>
+<script
+  src="https://code.jquery.com/jquery-3.7.1.js"
+  integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+  crossorigin="anonymous"></script>
+  <script>
+  $(document).ready(function(){$(window).on('scroll', function(){
+  if($(window).scrollTop()){
+  $("header").addClass('bgc');
+  }else{ $("header").removeClass('bgc');
+  }
+  });
+  });
+  </script>
+</body>
+
+</html>
+
