@@ -16,6 +16,15 @@ header {
 	transition: 500ms;
 	z-index:2;
 }
+.intro{
+		flex: 1;
+	font-size:35px;
+	font-family:sans-serif;
+	position: absolute;
+	 bottom:25%;
+  right:31%;
+	color:#fff;
+}
 nav {
 	margin-right: 70px;
 	
