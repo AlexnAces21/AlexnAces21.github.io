@@ -1,0 +1,77 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+header {
+	background: url('C:/Users/darke/Documents/Portfolio/img/thunderstorm.jpg');
+	display: flex;
+	padding: 30px;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	transition: 500ms;
+	z-index:2;
+}
+nav {
+	margin-right: 70px;
+	
+}
+nav a{
+	display: inline-block;
+	margin-left: 10px;
+	font-size: 15px;
+	text-decoration: none;
+	font-family: sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+	border-bottom:3px solid transparent;
+	padding:10px 1px;
+	transition:500ms;
+}
+.active{
+	border-color:#00B3FF;
+}
+nav a:hover{
+	border-color:#00B3FF;
+}
+.logo {
+	flex: 1;
+	font-size:35px;
+	font-family:sans-serif;
+	margin-left: 70px;
+	color:#fff;
+}
+@media (max-width: 769px){
+header{
+	flex-direction:column;
+	padding:20px;
+	
+}
+nav{ 
+padding:15px;
+margin: 0px;
+}
+.logo {
+	margin-left: 10px;
+}
+}
+.section-2{
+	padding: 20px;
+	padding-left:60px;
+	z-index:1;
+}
+.section-2 h1{
+	padding:20px;
+	font-size:40px;
+	text-align: center;
+}
+.section-2 p{
+	padding:20px;
+	line-height:1.8em;
+	font-size:18px;
+}
+
