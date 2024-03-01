@@ -5,7 +5,7 @@
 	font-family: sans-serif;
 }
 .section-1 {
-	background: url('/img/thunderstorm.jpg');
+	background: url('img/thunderstorm.jpg');
 	width: 100%;
 	background-size: cover;
 	height: 100vh;
